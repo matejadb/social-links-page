@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/social-links-page-with-flexbox-oXACe1leC4](https://www.frontendmentor.io/solutions/social-links-page-with-flexbox-oXACe1leC4)
+- Solution URL: [https://www.frontendmentor.io/solutions/social-links-page-with-flexbox-28lVgQC2yY](https://www.frontendmentor.io/solutions/social-links-page-with-flexbox-28lVgQC2yY)
 - Live Site URL: [https://matejadb.github.io/social-links-page/](https://matejadb.github.io/social-links-page/)
 
 ## My process
