@@ -124,7 +124,7 @@ body {
 }
 .attribution a {
   text-decoration: none;
-  color: hsl(228, 45%, 44%);
+  color: var(--neutral-grey);
 }
 
 .attribution a:hover {
