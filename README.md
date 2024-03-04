@@ -13,8 +13,6 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -29,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/social-links-page-with-flexbox-oXACe1leC4](https://www.frontendmentor.io/solutions/social-links-page-with-flexbox-oXACe1leC4)
+- Live Site URL: [https://matejadb.github.io/social-links-page/](https://matejadb.github.io/social-links-page/)
 
 ## My process
 
