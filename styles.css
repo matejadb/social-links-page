@@ -1,0 +1,128 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  --primary-green: hsl(75, 94%, 57%);
+  --neutral-white: hsl(0, 0%, 100%);
+  --neutral-grey: hsl(0, 0%, 20%);
+  --dark-grey: hsl(0, 0%, 12%);
+  --off-black: hsl(0, 0%, 8%);
+}
+
+@font-face {
+  font-family: "Inter-Bold";
+  src: url(./assets/fonts/static/Inter-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Inter-Regular";
+  src: url(./assets/fonts/static/Inter-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Inter-SemiBold";
+  src: url(./assets/fonts/static/Inter-SemiBold.ttf);
+}
+
+h1 {
+  font-family: "Inter-Bold";
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+body {
+  background: var(--off-black);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Header Section */
+.main-section {
+  min-height: 90vh;
+  max-width: 50rem;
+  width: 100%;
+  margin: 5rem 0 5rem 0;
+  background-color: var(--dark-grey);
+  color: var(--neutral-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1.5rem;
+}
+
+.header-img {
+  padding: 2.5rem;
+}
+
+.header-img img {
+  border-radius: 50%;
+  height: 10rem;
+  width: 10rem;
+}
+
+.header-title {
+  line-height: 1.6;
+  text-align: center;
+}
+
+.header-title p {
+  font-family: "Inter-Bold";
+  color: var(--primary-green);
+}
+
+/* Content Section */
+.content-section {
+  text-align: center;
+}
+
+.content-section p {
+  padding: 3rem 0rem;
+  color: var(--neutral-white);
+  font-family: "Inter-Regular";
+}
+
+.content-button {
+  display: block;
+  font-size: 1.5rem;
+  font-family: "Inter-SemiBold";
+  color: var(--neutral-white);
+  background-color: var(--neutral-grey);
+  border: none;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  width: 35rem;
+  padding: 1.3rem;
+}
+
+.content-button:hover {
+  background-color: var(--primary-green);
+  color: var(--off-black);
+  cursor: pointer;
+}
+
+/* Attribution Section */
+.attribution {
+  min-height: 10vh;
+  color: var(--neutral-white);
+  font-size: 1.4rem;
+  text-align: center;
+  font-family: "Inter-SemiBold";
+}
+.attribution a {
+  text-decoration: none;
+  color: hsl(228, 45%, 44%);
+}
+
+.attribution a:hover {
+  color: var(--primary-green);
+}
