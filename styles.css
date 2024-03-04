@@ -123,8 +123,7 @@ body {
   font-family: "Inter-SemiBold";
 }
 .attribution a {
-  text-decoration: none;
-  color: var(--neutral-grey);
+  color: var(--neutral-white);
 }
 
 .attribution a:hover {
