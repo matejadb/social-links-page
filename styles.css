@@ -48,10 +48,9 @@ body {
 
 /* Header Section */
 .main-section {
-  min-height: 90vh;
   max-width: 50rem;
   width: 100%;
-  margin: 5rem 0 5rem 0;
+  margin: 5rem 0 2.5rem 0;
   background-color: var(--dark-grey);
   color: var(--neutral-white);
   display: flex;
@@ -91,17 +90,20 @@ body {
   font-family: "Inter-Regular";
 }
 
+.buttons {
+  width: 75%;
+}
+
 .content-button {
-  display: block;
   font-size: 1.5rem;
   font-family: "Inter-SemiBold";
   color: var(--neutral-white);
   background-color: var(--neutral-grey);
   border: none;
   border-radius: 1rem;
-  margin-bottom: 2rem;
-  width: 35rem;
   padding: 1.3rem;
+  width: 100%;
+  margin-bottom: 2rem;
 }
 
 .content-button:hover {
@@ -110,9 +112,11 @@ body {
   cursor: pointer;
 }
 
+.last-button {
+  margin-bottom: 4rem;
+}
 /* Attribution Section */
 .attribution {
-  min-height: 10vh;
   color: var(--neutral-white);
   font-size: 1.4rem;
   text-align: center;
@@ -125,4 +129,16 @@ body {
 
 .attribution a:hover {
   color: var(--primary-green);
+}
+
+@media screen and (max-width: 500px) {
+  .main-section {
+    width: 35rem;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .main-section {
+    width: 25rem;
+  }
 }
